@@ -1,0 +1,99 @@
+{
+  "hello": "Hello",
+  "api": "API",
+  "common": {
+    "home": "Home",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "signUp": "Sign up",
+    "signIn": "Sign In",
+    "theme": "Theme",
+    "language": "Language",
+    "accountMenu": "Account menu",
+    "clinic": "Clinic",
+    "market": "Market",
+    "marketplace": "Marketplace",
+    "doctor": "Doctor",
+    "allRightsReserved": "All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "appointments": "Appointments",
+    "patients": "Patients",
+    "reports": "Reports",
+    "products": "Products",
+    "orders": "Orders",
+    "marketing": "Marketing"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "signInTitle": "Sign In",
+    "signInSubtitle": "Access your dashboard and manage your workspace securely.",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "createAccount": "Create an account",
+    "signUpTitle": "Sign Up",
+    "signUpSubtitle": "Start your journey with a polished, secure workspace.",
+    "name": "Name",
+    "fullName": "Your full name",
+    "choosePassword": "Choose a password",
+    "newHere": "New here?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInLink": "Sign in",
+    "resetAccess": "Reset access",
+    "forgotPasswordTitle": "Forgot Password",
+    "forgotPasswordSubtitle": "Enter your email and we’ll help you recover your account.",
+    "sendResetLink": "Send reset link",
+    "backToSignIn": "Back to sign in",
+    "passwordPlaceholder": "Enter your password",
+    "emailPlaceholder": "you{'@'}example.com",
+    "loginFailed": "Login failed",
+    "registrationFailed": "Registration failed",
+    "requestFailed": "Request failed",
+    "genericResetSuccess": "If that email exists, a reset link has been sent."
+  },
+  "footer": {
+    "copyright": "© {year} {brand} — {rightsReserved}"
+  },
+  "themes": {
+    "doctor": "Doctor",
+    "marketplace": "Marketplace"
+  },
+  "home": {
+    "doctor": {
+      "experience": "Doctor experience",
+      "heroTitle": "Manage visitors, patients, and appointments in one calm workspace.",
+      "heroSubtitle": "A modern clinic experience with dynamic cards, live metrics, animated sections, and reusable domain-aware components.",
+      "ctaLabel": "Open Dashboard",
+      "metrics": {
+        "visitors": { "title": "Visitors", "value": "24", "caption": "Checked in today" },
+        "patients": { "title": "Patients", "value": "128", "caption": "Active records" },
+        "reports": { "title": "Reports", "value": "9", "caption": "Ready to review" }
+      },
+      "features": {
+        "appointments": { "title": "Appointments", "body": "Coordinate visits and follow-ups effortlessly." },
+        "patients": { "title": "Patients", "body": "Keep patient records and histories at your fingertips." },
+        "reports": { "title": "Reports", "body": "Track clinic performance with clear, shareable insights." }
+      }
+    },
+    "marketplace": {
+      "experience": "Marketplace experience",
+      "heroTitle": "Launch products and grow revenue with a polished storefront experience.",
+      "heroSubtitle": "A flexible marketplace UI with promo cards, commerce metrics, and animated conversion blocks.",
+      "ctaLabel": "Explore Catalog",
+      "metrics": {
+        "revenue": { "title": "Revenue", "value": "$12.4k", "caption": "This week" },
+        "orders": { "title": "Orders", "value": "318", "caption": "Live purchases" },
+        "customers": { "title": "Customers", "value": "2.1k", "caption": "Returning users" }
+      },
+      "features": {
+        "products": { "title": "Products", "body": "Showcase inventory with rich cards and promotions." },
+        "orders": { "title": "Orders", "body": "Track fulfillment and delivery status in real time." },
+        "marketing": { "title": "Marketing", "body": "Run campaigns and measure customer engagement." }
+      }
+    }
+  }
+}

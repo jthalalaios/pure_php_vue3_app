@@ -1,0 +1,34 @@
+/* Doctor theme specific styles */
+.theme-doctor {
+  --card-bg: #ffffff;
+  --card-border: #e6eefb;
+  --card-shadow: 0 16px 36px rgba(15, 102, 240, 0.08);
+}
+
+.doctor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgba(15,102,240,0.16), rgba(6,182,212,0.09));
+  padding: 1rem 1.2rem;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border);
+}
+
+.visitor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.visitor-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+}
+
+.visitor-name { font-weight: 700; color: var(--text); margin-bottom: .25rem }
+.visitor-meta { color: var(--muted); font-size: .92rem; line-height: 1.5 }

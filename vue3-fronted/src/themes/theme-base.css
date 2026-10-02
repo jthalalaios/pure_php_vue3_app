@@ -1,0 +1,25 @@
+:root {
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+/* Buttons */
+.p-button {
+  background: var(--primary);
+  color: var(--surface);
+  border: 1px solid var(--border);
+}
+
+/* Inputs */
+.p-inputtext, .p-password input {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+/* Surface panels */
+.p-panel {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+}

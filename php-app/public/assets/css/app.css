@@ -1,0 +1,19 @@
+/* app.css — minimal custom styles on top of Bootstrap 5 */
+
+body { min-height: 100vh; }
+
+.card { border-radius: .5rem; }
+
+@media (max-width: 576px) {
+    .card-body { padding: 1.25rem !important; }
+}
+
+.progress-bar {
+    transition: width .3s ease, background-color .3s ease;
+}
+
+pre[id$="-result"] {
+    font-size: .78rem;
+    word-break: break-all;
+    white-space: pre-wrap;
+}

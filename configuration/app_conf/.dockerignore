@@ -1,0 +1,11 @@
+# Node artifacts
+node_modules
+public/build
+
+# Laravel runtime & sensitive files
+storage
+vendor
+.env
+
+# OS files
+.DS_Store
